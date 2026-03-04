@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Reader - Level</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="level.css">
+</head>
+<body>
+
+<div class="level-container">
+    
+    <!-- Header -->
+    <header class="level-header">
+        <button onclick="history.back()" class="btn-back">← Back</button>
+        <h1 id="levelTitle">Level A1</h1>
+        <div class="user-info-small">
+            <span id="userName">Guest</span>
+        </div>
+    </header>
+
+    <!-- Stories Grid -->
+    <section class="stories-section">
+        <div id="storiesGrid" class="stories-grid">
+            <!-- Dynamically populated -->
+        </div>
+    </section>
+
+</div>
+
+<script src="auth.js"></script>
+<script src="level.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Reader - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+    
+    <!-- User Header -->
+    <div class="user-header">
+        <div class="user-info">
+            <span id="userName">Guest</span>
+            <span id="userEmail" class="user-email"></span>
+        </div>
+        <button id="logoutBtn" class="btn-logout">Logout</button>
+    </div>
+
+    <!-- Header Section -->
+    <header class="dashboard-header">
+        <div class="header-content">
+            <h1>🇩🇪 German Reader</h1>
+            <p class="subtitle">Master German through interactive reading</p>
+        </div>
+    </header>
+
+    <!-- Proficiency Levels Section -->
+    <section class="levels-section" id="levelsSection">
+        <!-- Dynamically populated by JavaScript -->
+    </section>
+
+</div>
+
+<script src="auth.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>
