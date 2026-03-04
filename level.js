@@ -12,7 +12,7 @@ function generateStories(level, count = 100) {
             number: i,
             title: `${topics[topicIndex]} ${subtopics[subtopicIndex]}`,
             subtitle: `Story ${i}`,
-            link: `stories/${level.toLowerCase()}-story${i}.html`
+            link: `.stories/${level.toLowerCase()}-story${i}.html`
         });
     }
 
